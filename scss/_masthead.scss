@@ -1,8 +1,9 @@
 // Styling for the masthead
 header.masthead {
+ 
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -29,7 +30,7 @@ header.masthead {
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
+      padding-top: 500px;
       padding-bottom: 200px;
       .intro-lead-in {
         font-size: 40px;
@@ -47,4 +48,7 @@ header.masthead {
       }
     }
   }
+}
+.portfolio-item .img-fluid{
+min-height: 250px;
 }

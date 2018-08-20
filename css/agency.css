@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -205,7 +205,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 500px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -222,6 +222,10 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+}
+
+.portfolio-item .img-fluid {
+  min-height: 250px;
 }
 
 .service-heading {
@@ -513,7 +517,6 @@ header.masthead .intro-text .intro-heading {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
   }
   .timeline > li .timeline-image {
     left: 50%;
@@ -573,6 +576,10 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+
+.about-sub-title {
+  margin: 10px 0;
 }
 
 .team-member {
